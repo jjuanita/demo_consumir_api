@@ -1,6 +1,6 @@
-# 🌦️ App Flutter – Consumo de API con Manejo de Secretos (.env)
+# App Flutter – Consumo de API con Manejo de Secretos (.env)
 
-## 📋 Descripción
+## Descripción
 
 Esta aplicación Flutter demuestra cómo **consumir una API REST de forma segura**, utilizando un archivo `.env` para proteger las claves API y credenciales sensibles.  
 El proyecto implementa una interfaz sencilla para mostrar información obtenida desde **OpenWeatherMap** (clima) o **NewsAPI** (noticias), manejando correctamente los estados de carga, error y resultados vacíos.
@@ -9,7 +9,7 @@ La app fue probada exitosamente en un **dispositivo Android físico (Moto G9 Pla
 
 ---
 
-## 🎯 Objetivo del proyecto
+## Objetivo del proyecto
 
 - Aprender a consumir APIs REST de forma segura en Flutter.
 - Aplicar buenas prácticas de seguridad (manejo de secretos, validación de entrada y control de errores).
@@ -17,7 +17,7 @@ La app fue probada exitosamente en un **dispositivo Android físico (Moto G9 Pla
 
 ---
 
-## ⚙️ Funcionalidades principales
+## Funcionalidades principales
 
 ✅ Consumo de datos desde una API REST (clima o noticias).  
 ✅ Manejo de variables de entorno con `flutter_dotenv`.  
@@ -28,7 +28,7 @@ La app fue probada exitosamente en un **dispositivo Android físico (Moto G9 Pla
 
 ---
 
-## 🧩 Estructura del proyecto
+## Estructura del proyecto
 
 lib/
 ├── main.dart # Punto de entrada principal
@@ -43,7 +43,7 @@ README.md # Este archivo
 
 ---
 
-## 🔐 Archivo `.env`
+## Archivo `.env`
 
 Crea un archivo en la raíz del proyecto llamado `.env` y coloca tu API key, por ejemplo:
 
